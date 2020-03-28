@@ -10,7 +10,6 @@ class Home extends StatefulWidget {
   _HomeState createState() => _HomeState();
 }
 class _HomeState extends State<Home> {
-  
   int _people = 0;
   String _infoText = "Pode Entrar!";
 
@@ -26,7 +25,6 @@ class _HomeState extends State<Home> {
       }else{
         _infoText = "Lotado";
       }
-
     });
   }
 
